@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.article {
+  position:absolute;
+  top:11%;
+  z-index: -1;
+  width: 100%;
+}
+.divcell {
+  background-color: rgba(1,1,1,0.1);
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+  margin-bottom: 2%;
+  height:'auto';
+}
+
+.devcellsection {
+  width: 48%;
+  padding: 0 1% 0 1%;
+}
+
+.searchsection{
+  position: absolute;
+  width: 99%;
+  background-color: grey;
+  top: 11%;
+  z-index: -1;
+  display: flex;
+  justify-content:space-between;
+  padding:.5%;
+}
+
+.searchbutton {
+  border: outset 1px;
+  width:20%;
+  border-radius:10px;
+}
+
+.searchinput{
+  width: 40%;
+  border: inset 1px;
+  border-radius: 50px;
+}
+
+
+.divImage {
+  position: relative;
+  max-height: 90%;
+  max-width: 65%;
+  top: 5%;
+}

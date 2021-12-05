@@ -6,14 +6,15 @@ const Navbar = () => {
         <nav   className='navbar'>
             <ul style={navBarStyle} className=''>
                 <li><MyLink href='/' title='Home' /></li>
-                <li><MyLink href ='/catalogs' title='Catalogs'/></li>
+                <li><MyLink href ='/Catalogs' title='Catalogs'/></li>
+                <li><MyLink href ='/About-us' title='About Us'/></li>
             </ul>
         </nav>
     )
 }
 
 const navBarStyle = {
-    position:'relative',
+    position:'fixed',
     backgroundColor:'black',
     display: 'flex',
     flexDirection:'row',
@@ -22,6 +23,8 @@ const navBarStyle = {
     listStyleType:'none',
     padding: '4px',
     margin:'0px',
+    width:'100%',
+    height:'10%',
 }
 
 

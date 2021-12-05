@@ -15,7 +15,7 @@ MyLink.defaultProps = {
 const myLinkStyles= {
     color: 'orange',
     position:'relative',
-    fontSize: '42px',
+    fontSize: '40px',
     border:'solid',
     borderRadius: '24px',
     textDecoration: 'none',
