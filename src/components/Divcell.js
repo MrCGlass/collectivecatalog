@@ -32,4 +32,4 @@ DivCell.defaultProps = {
 }
 
 
-export default DivCell
+export default DivCell;

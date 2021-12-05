@@ -21,4 +21,4 @@ const myLinkStyles= {
     textDecoration: 'none',
 }
 
-export default MyLink 
+export default MyLink;

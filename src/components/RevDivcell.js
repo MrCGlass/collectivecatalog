@@ -27,4 +27,4 @@ RevDivcell.defaultProps = {
     sectiontext:'section paragraph text',
 }
 
-export default RevDivcell
+export default RevDivcell;

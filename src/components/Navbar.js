@@ -25,4 +25,4 @@ const navBarStyle = {
 }
 
 
-export default Navbar
+export default Navbar;

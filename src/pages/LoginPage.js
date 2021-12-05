@@ -10,4 +10,4 @@ const LoginPage = () =>{
 LoginPage.defaultProps = {
     value: 'input',
 }
-export default LoginPage 
+export default LoginPage;

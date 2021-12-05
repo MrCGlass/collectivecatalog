@@ -17,4 +17,4 @@ const headingStyle = {
     height:'50px',
 }
 
-export default Header
+export default Header;
