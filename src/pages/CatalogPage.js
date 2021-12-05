@@ -3,8 +3,10 @@ import SearchSection from "../components/SearchSection"
 
 const CatalogPage = () =>{
    return (
-       <SearchSection />
-   ) 
+        <article className='article'>
+            <SearchSection />
+        </article>
+   )
 }
 
 

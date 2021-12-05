@@ -2,35 +2,16 @@ import image from '../static/images/th.jpg'
 const RevDivcell = ({heading,image,sectiontext}) => {
     return (
         <div className='divcell'>
-            <div className='divcellsection'>
+            <div className='divcellsectionimage'>
                 <img className='divImage' src={image}/>
             </div>
-            <div className='divcellsection'>
+            <div className='divcellsectiontext'>
                 <h4 className=''>{heading}</h4>
                 <p className=''>{sectiontext}</p>
             </div>
         </div>
 
     )
-}
-
-const divCellStyle = {
-    backgroundColor: 'rgba(1,1,1,0.1)',
-    display:'flex',
-    justifyContent:'center',
-    width: '100%',
-    marginBottom:'2%',
-    height:'auto',
-}
-
-const sectionStyle={
-    width: '48%',
-    padding:'0 1% 0 1%',
-    textAlign:'center',
-
-}
-const thumbImageStyle = {
-    
 }
 
 RevDivcell.defaultProps = {

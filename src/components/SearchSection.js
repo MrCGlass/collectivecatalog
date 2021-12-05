@@ -9,4 +9,4 @@ const SearchSection = () => {
 
 
 
-export default SearchSection
+export default SearchSection;

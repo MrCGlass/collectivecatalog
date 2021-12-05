@@ -4,27 +4,15 @@ import image from '../static/images/th.jpg'
 const DivCell = ({heading,image,sectiontext})=> {
     return(
         <div className='divcell'>
-            <div className='divcellsection'>
+            <div className='divcellsectiontext'>
                 <h4 className=''>{heading}</h4>
                 <p className=''>{sectiontext}</p>
             </div>
-            <div className='divcellsection'>
+            <div className='divcellsectionimage'>
                 <img className='divImage' src={image}/>
             </div>
         </div>
     )
-}
-
-
-
-
-
-
-const thumbImageStyle = {
-    position: 'relative',
-    maxHeight:'90%',
-    maxWidth:'65%',
-    top:'5%'
 }
 
 DivCell.defaultProps = {
