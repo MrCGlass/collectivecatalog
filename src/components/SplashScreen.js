@@ -1,4 +1,5 @@
 import video from '../static/graphics/video.mp4'
+
 const SplashScreen = () => {
     return(
         <article className='splashscreen'>
@@ -10,4 +11,4 @@ const SplashScreen = () => {
 }
 
 
-export default SplashScreen
+export default SplashScreen;

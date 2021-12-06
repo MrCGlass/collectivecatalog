@@ -14,7 +14,7 @@ const RevDivcell = ({heading,image,sectiontext,href}) => {
             </Link>
         </div>
 
-    )
+    );
 }
 
 RevDivcell.defaultProps = {

@@ -5,7 +5,7 @@ const AboutPage = () => {
         <article className='article'>
             <div className=''>About Page</div>
         </article>
-    )
+    );
 }
 
 

@@ -11,7 +11,7 @@ const HomePage = () => {
             <RevDivcell heading='Catalogs'  href='/Catalogs' sectiontext='Click here to search user catalogs'/>
             <Divcell heading='About Collective Catalogs' href='/About-us' sectiontext='Click hear to learn more about our vision!'/>
         </article>
-    )  
+    );  
 }
 
 

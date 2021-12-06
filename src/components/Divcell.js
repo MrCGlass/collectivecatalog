@@ -15,7 +15,7 @@ const DivCell = ({heading,image,sectiontext,href})=> {
                 </div>
             </Link>
         </div>
-    )
+    );
 }
 
 DivCell.defaultProps = {
