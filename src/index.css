@@ -140,12 +140,10 @@ code {
   background:ivory;
   height: 90%;
   width: 320px;
-  top: 10%;
 }
 
 .formsstyle div {
   position: relative;
-  top:10%
 }
 
 @media screen and (max-width: 900px){

@@ -1,10 +1,9 @@
 const Header = ({title}) => {
     return(
-        <article className='article'>
-            <header className>
-                    <h1> {title} </h1>
-            </header>
-        </article>
+        <header className>
+                <h1> {title} </h1>
+        </header>
+        
     );
 }
 
