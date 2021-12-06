@@ -1,15 +1,16 @@
 
 
-const FormButton = ({buttonclass,buttontext}) =>{
+const FormButton = ({buttonclass,buttontext,form}) =>{
     return (
-        <button type='submit' className={buttonclass}>{buttontext}</button>
+        <button type='submit' form={form} className={buttonclass}>{buttontext}</button>
     )
 }
 
 FormButton.defaultProps = {
 
     buttonclass:'',
-    buttontext:'button'
+    buttontext:'button',
+    form:'',
 }
 
 export default FormButton
