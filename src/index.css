@@ -41,22 +41,35 @@ code {
   width: 100%;
 }
 .divcell {
-  background-color: rgba(1,1,1,0.1);
+  background-color: rgba(1,1,1,0.3);
   display: flex;
   justify-content:space-evenly;
   width: 100%;
   margin-top: 2%;
   height: auto;
+  border: solid .2px;
 }
 
+.divlink{
+  position: relative;
+  display: inherit;
+  width: inherit;
+  text-decoration: none;
+  font-size: 22px;
+}
 .divcellsectiontext {
-  width: 60%;
+  color:white;
+  position: relative;
+  width: 50%;
   padding: 0 1% 0 1%;
+  text-align: center;
 }
 
 .divcellsectionimage{
-  width:30%;
+  position: relative;
   padding: 0 1% 0 1%;
+  width:50%;
+  text-align: center;
 }
 
 .searchsection{
@@ -84,6 +97,26 @@ code {
 .divImage {
   position: relative;
   max-height: 90%;
-  max-width: 65%;
-  top: 5%;
+  max-width: 80%;
+  top:5%;
 }
+
+.splashscreen{
+  position: fixed;
+  z-index: -2;
+  text-align: center;
+  top:15%;
+}
+
+.videosplash{
+  position: relative;
+  height: 80%;
+  width: 90%
+}
+
+@media screen and (max-width: 900px){
+  .navLinks{
+    font-size: 20px;
+  }
+}
+  

@@ -2,16 +2,11 @@
 
 const AboutPage = () => {
     return (
-        <article style={aboutpageStyle} className=''>
-            <div className=''></div>
+        <article className='article'>
+            <div className=''>About Page</div>
         </article>
     )
 }
 
 
-
-const aboutpageStyle = {
-    backgroundColor:'black',
-}
-
-export default AboutPage 
+export default AboutPage;

@@ -1,6 +1,6 @@
 const Header = ({title}) => {
     return(
-        <header style={headingStyle}>
+        <header className='article'>
                 <h1> {title} </h1>
         </header>
     );
